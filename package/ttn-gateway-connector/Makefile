@@ -5,11 +5,10 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=ttn-gateway-connector
 PKG_VERSION:=v1.0.0
 PKG_RELEASE:=v1.0.0
-PKG_MAINTAINER:=Dan Knox <d.knox@kent.ac.uk>
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=git://github.com/kersing/ttn-gateway-connector.git
-PKG_SOURCE_VERSION:=master
+PKG_SOURCE_URL:=https://github.com/nhanlee97/ttn-gateway-connector.git
+PKG_SOURCE_VERSION:=10bfae4f8a8395b28180ca525e0dd29ae201543f
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 # We override "packagename-packageversion", because
 # other packages reference to the build dir of this package

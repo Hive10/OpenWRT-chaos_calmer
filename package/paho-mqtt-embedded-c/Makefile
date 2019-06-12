@@ -5,11 +5,10 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=paho.mqtt.embedded-c
 PKG_VERSION:=v1.3.0
 PKG_RELEASE:=v1.0.0
-PKG_MAINTAINER:=Dan Knox <d.knox@kent.ac.uk>
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=git://github.com/kersing/paho.mqtt.embedded-c.git
-PKG_SOURCE_VERSION:=8ccbef7c64b74a492bfc8d95ac65cb7bab452f3e
+PKG_SOURCE_URL:=https://github.com/nhanlee97/paho.mqtt.embedded-c.git
+PKG_SOURCE_VERSION:=3c3c8b56d3aa1e9b032575eb228ddc46ef6dafa4
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 # We override "packagename-packageversion", because
 # other packages reference to the build dir of this package
