@@ -8,7 +8,7 @@ PKG_RELEASE:=v1.0.0
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/nhanlee97/ttn-gateway-connector.git
-PKG_SOURCE_VERSION:=10bfae4f8a8395b28180ca525e0dd29ae201543f
+PKG_SOURCE_VERSION:=5f4b05438cd2c807dab1789eac2a0f73f938711e
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 # We override "packagename-packageversion", because
 # other packages reference to the build dir of this package
